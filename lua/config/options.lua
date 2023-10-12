@@ -4,3 +4,4 @@
 
 vim.g.mapleader = ";"
 vim.opt.listchars = { eol = "↲", tab = "▸ ", space = "·" }
+vim.opt.conceallevel = 0
