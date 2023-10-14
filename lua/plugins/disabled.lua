@@ -4,7 +4,9 @@ return {
   -- disable bufferline
   { "akinsho/bufferline.nvim", enabled = false },
   -- disable dashboard-nvim
-  { "glepnir/dashboard-nvim", enabled = false },
+  { "nvimdev/dashboard-nvim", enabled = false },
   -- disable flash-nvim
   { "folke/flash.nvim", enabled = false },
+  -- disable project
+  { "ahmedkhalf/project.nvim", enabled = false },
 }
