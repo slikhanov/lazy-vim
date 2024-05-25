@@ -3,3 +3,6 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("n", "<leader>sl", ":set list!<CR>")
+vim.keymap.set("n", "<leader>il", function()
+  vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled({}))
+end)
