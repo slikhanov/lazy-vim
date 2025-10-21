@@ -9,6 +9,4 @@ return {
   { "folke/flash.nvim", enabled = false },
   -- disable project
   { "ahmedkhalf/project.nvim", enabled = false },
-  -- disable indentscopes
-  { "echasnovski/mini.indentscope", enabled = false },
 }
